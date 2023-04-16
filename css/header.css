@@ -1,0 +1,52 @@
+.header {
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header__logo {
+  /* Brand Logo Styles */
+}
+.header__menu {
+  /* Menu Styles */
+}
+.header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header li {
+  list-style: none;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+}
+.header a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.header__search__tag {
+  margin-right: 10px;
+}
+.header__search .fa {
+  /* Icon Styles */
+}
+.header__hamburger {
+  display: none; /* Hide hamburger menu by default */
+}/*# sourceMappingURL=header.css.map */
